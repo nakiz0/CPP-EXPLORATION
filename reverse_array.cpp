@@ -24,7 +24,7 @@ int main() {
     }
 }
 
-*/
+
 //REVERSING THE HALF ARRAY
 
 
@@ -45,8 +45,18 @@ int main() {
         cout<<arr[i]<<" ";
     }
 }
-
-
+*/
+int main() {
+    int arr[]={5,2,3,1,4,6};
+    int n=6;
+    ;
+    for (int i=n/2-1;i>=0;i--) {
+        cout<<arr[i]<<" ";
+    }
+    for (int i=n/2;i<n;i++) {
+        cout<<arr[i]<<" ";
+    }
+}
 
 
 
