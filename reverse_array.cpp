@@ -45,7 +45,7 @@ int main() {
         cout<<arr[i]<<" ";
     }
 }
-*/
+
 int main() {
     int arr[]={5,2,3,1,4,6};
     int n=6;
@@ -58,5 +58,25 @@ int main() {
     }
 }
 
+*/
+
+void reverse_arr(int arr[],int sz){
+    int start =0, end=sz-1;
+
+    while(start<end) {
+        swap(arr[start],arr[end]);
+        start++;
+        end--;
+    }
+}
+
+int main() {
+    int arr[]={5,2,3,1,4,6};
+    int sz=6;
+    reverse_arr(arr,sz);
+    for (int i=0;i<sz;i++) {
+        cout<<arr[i]<<" ";
+    }
+}
 
 
