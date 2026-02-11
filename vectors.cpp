@@ -20,7 +20,7 @@ int main() {
         cout<<"after push_back = "<<vall<<endl;
     }
 
-    //POP_BA
+    //POP_BACK
     vec.pop_back();
     for (int vall:vec) {
         cout<<"after pop_back = "<<vall<<endl;
