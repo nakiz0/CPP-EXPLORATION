@@ -3,6 +3,7 @@
 using namespace std;
 //STL
 int main() {
+    //VECTOR IS
     vector<char> ch={'a','b','c','d','e'};
     vector<int> vec;
 
