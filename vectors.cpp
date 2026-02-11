@@ -9,12 +9,14 @@ int main() {
     //SIZE
     cout<<"size = " << ch.size()<<endl;
     cout<<"size before push_back = " << vec.size()<<endl;
+
+    //PUSH_BACK
     vec.push_back(25);
     vec.push_back(26);
     vec.push_back(27);
     vec.push_back(28);
 
-    //PUSH_BACK
+
     cout<<"size after push_back= " << vec.size()<<endl;
     for (int vall:vec) {
         cout<<"after push_back = "<<vall<<endl;
@@ -31,6 +33,8 @@ int main() {
     //LAST VALUE
     cout<<"front val ="<<vec.back()<<endl;
     vector<int> ba(5,1);
+
+    //AT (VALUE AT INDEX)
     cout<<vec.at(1)<<endl;
     for (char val :ch){
         cout << val<<endl;
