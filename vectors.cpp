@@ -36,7 +36,9 @@ int main() {
 
     //AT (VALUE AT INDEX)
     cout<<vec.at(1)<<endl;
-    for (char val :ch){
+
+    //PRINTING OUT VALUES
+    for (char val :ch){ //VAL - POINTS TO THE VALUES | PRINTS VALUE INSTEAD OF ITERATING INDEX
         cout << val<<endl;
     }
 
