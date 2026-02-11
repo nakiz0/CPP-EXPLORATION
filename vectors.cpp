@@ -28,7 +28,7 @@ int main() {
     //FRONT VALUE
     cout<<"front val ="<<vec.front()<<endl;
 
-    //LAST V
+    //LAST VAL
     cout<<"front val ="<<vec.back()<<endl;
     vector<int> ba(5,1);
     cout<<vec.at(1)<<endl;
