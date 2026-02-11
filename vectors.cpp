@@ -3,7 +3,7 @@
 using namespace std;
 //STL
 int main() {
-    //VECTOR IS DYNAMIC ALLOCATES
+    //VECTOR IS DYNAMIC ALLOCATES MEMORY AT RUNTIME
     vector<char> ch={'a','b','c','d','e'};
     vector<int> vec;
 
