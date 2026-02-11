@@ -3,7 +3,7 @@
 using namespace std;
 //STL
 int main() {
-    //VECTOR IS
+    //VECTOR IS DYNAMIC
     vector<char> ch={'a','b','c','d','e'};
     vector<int> vec;
 
