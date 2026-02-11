@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//STL
 int main() {
     vector<char> ch={'a','b','c','d','e'};
     vector<int> vec;
@@ -11,6 +11,8 @@ int main() {
     vec.push_back(26);
     vec.push_back(27);
     vec.push_back(28);
+
+    //PUSH_BACK
     cout<<"size after push_back= " << vec.size()<<endl;
     for (int vall:vec) {
         cout<<"after push_back = "<<vall<<endl;
@@ -26,7 +28,7 @@ int main() {
     for (char val :ch){
         cout << val<<endl;
     }
-//stl
+
     return 0;
 
 
