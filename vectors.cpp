@@ -26,7 +26,7 @@ int main() {
     for (char val :ch){
         cout << val<<endl;
     }
-
+//stl
     return 0;
 
 
