@@ -25,7 +25,7 @@ int main() {
     for (int vall:vec) {
         cout<<"after pop_back = "<<vall<<endl;
     }
-    //FRONT VA
+    //FRONT VALUE
     cout<<"front val ="<<vec.front()<<endl;
 
     //LAST V
