@@ -59,8 +59,7 @@ int main() {
     int small_index,large_index;
     for (int i=0;i<n;i++) {
         smallest=min(arr[i],smallest);
-        //OLD ONE
-        //NEX LEVEL
-        //OLD LEVEL
+
     }
 }
+//OLD ONE
