@@ -43,7 +43,7 @@ int main() {
         cout << val<<endl;
     }
 
-    return 0;
+
 
 
 
@@ -61,9 +61,16 @@ int main() {
         smallest=min(arr[i],smallest);
 
     }
+    vector<int>aaa={1,2,3,4,5};
+    for (int ac:aaa) {
+        cout<<"added = "<<ac<<endl;
+    }
+    //OLD ONE
+    //NEXT LEVEL
+    //OLD LEVEL
+    //MIDDLE ONE
+    //SEPERATED ONE
+
+    return 0;
+
 }
-//OLD ONE
-//NEXT LEVEL
-//OLD LEVEL
-//MIDDLE ONE
-//SEPERATED ONE
