@@ -47,9 +47,20 @@ int main() {
 
 
 
-}
 
-//NEXT ONE
-//OLD ONE
-//NEX LEVEL
-//OLD LEVEL
+
+    //NEXT ONE
+    int n,smallest=INT_MAX,largest=INT_MIN;
+    cin>>n;
+    int arr[n];
+    for (int i=0;i<n;i++) {
+        cin>>arr[i];
+    }
+    int small_index,large_index;
+    for (int i=0;i<n;i++) {
+        smallest=min(arr[i],smallest);
+        //OLD ONE
+        //NEX LEVEL
+        //OLD LEVEL
+    }
+}
