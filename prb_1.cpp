@@ -12,7 +12,7 @@ int main() {
         ans^=val;
     }
 
-    cout<<"SINGLE NUMBER="<< ans;
+    cout<<"SINGLE NUMBER = "<< ans;
 
     return 0;
 }
