@@ -7,7 +7,7 @@ int main() {
     //defining vector
     vector<int> vec={4,2,1,2,1};
 
-    int ans=0; //vairable to contain the answer
+    int ans=0; //variable to contain the answer
     for (int val:vec) {
         ans=ans^val;
     }
