@@ -9,8 +9,10 @@ int main() {
 
     int ans=0; //variable to contain the answer
     for (int val:vec) {
-        ans=ans^val;
+        ans^=val;
     }
 
-    return ans;
+    cout<<"SINGLE NUMBER="<< ans;
+
+    return 0;
 }
