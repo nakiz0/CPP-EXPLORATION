@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
 
+    //defining vector
     vector<int> vec={4,2,1,2,1};
     int ans=0;
     for (int val:vec) {
